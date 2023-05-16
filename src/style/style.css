@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Kotta+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kotta One', sans-serif;
+    font-family: 'Inter', sans-serif;
+}
+/* header */
+.header{
+    box-sizing: border-box;
+    position: relative;
+    width: 1550px;
+    height: 125px;
+    background: #9FD2EE;
+    border: 1px solid #0000;
+}
+
+.border {
+    border: solid;
+}
+
+.logo{
+    position: absolute;
+    width: 156px;
+    height: 165px;
+    left: 89px;
+    top: -4px;
+}
+
+.nama1{
+    position: absolute;
+    width: 571px;
+    height: 60px;
+    left: 456px;
+    top: 19px;
+    font-family: 'Kotta One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: black;
+}
+
+.nama2{
+    position: absolute;
+    width: 345px;
+    height: 60px;
+    left: 548px;
+    top: 63px;
+    font-family: 'Kotta One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: black;
+}
+/* akhir header */
+/* navbar */
+nav{
+    box-sizing: border-box;
+    position: absolute;
+    width: 339px;
+    height: 899px;
+    left: 0px;
+    top: 125px;
+    background: #9FD2EE;
+    border: 1px solid #0000;
+    border-right: 1.2px solid #BBBBBB;
+    
+}
+
+.nav_menu a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+
+a:hover{
+    background-size: 200% auto;
+    color: #FFFF;
+    cursor: pointer;
+}
+
+.home{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+h2{
+    margin-left: 20px; 
+}
+/* akhir navbar */
+
+/* content*/
+.tombolImport{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 373px;
+    top: 169px;
+    background: #BCD8EC;
+    box-shadow: 0px 4px 4px #716c6c;
+    border-radius: 5px;
+    border-color: #ddd;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+/* processing*/
+.processing{
+    position: absolute;
+    width: 200px;
+    height: 45px;
+    left: 397px;
+    top: 174px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.processing p{
+    margin-top: 10px;
+}
+
+.latih{
+    position: absolute;
+    width: 144px;
+    height: 48px;
+    left: 403px;
+    top: 447px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.tombolProses{
+    position: absolute;
+    width: 102px;
+    height: 35px;
+    left: 1270px;
+    top: 412px;
+    background: #BCD8EC;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.popup {
+    position: fixed;
+    top: 200px;
+    left: 500px;
+    width: 506px;
+    height: 347px;
+    display: none;
+    background: #9FD2EE;
+}
+
+.importdata{
+    position: absolute;
+    width: 145px;
+    height: 34px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    top: 30px;
+    
+}
+
+.exit{
+    position: absolute;
+    width: 26px;
+    height: 34px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    top: 30px;
+    right: 10px;
+}
+
+.file{
+    position: absolute;
+    width: 177px;
+    height: 34px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    top: 100px;
+}
+/* Tampilan konten dalam pop up */
+.popup-content{
+    position: absolute;
+    width: 466px;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    top: 150px;
+    left: 20px;
+}
+
+.choose{
+    position: absolute;
+    width: 143px;
+    height: 34px;
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    top: 10px;
+    left: 5px;
+}
+
+.namafile{
+    position: absolute;
+    width: 276px;
+    height: 34px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    top: 10px;
+    left: 140px;
+}
+
+
+
+.data{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    top: 250px;
+    right: 150px;
+}
+
+.data1{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    top: 250px;
+    right: 30px;
+}
+
+.Uji{
+    position: absolute;
+    width: 144px;
+    height: 48px;
+    left: 403px;
+    top: 200px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+table {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: max-content;
+    height: 108px;
+    left: 373px;
+    top: 250px;
+    
+    
+}
+th, td {
+    text-align: left;
+   
+    padding: 8px;
+    border: 1px solid #ddd;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+th {
+    background-color: #BCD8EC;
+    font-weight: bold;
+    width: max-content;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
